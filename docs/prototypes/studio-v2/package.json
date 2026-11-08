@@ -1,0 +1,17 @@
+{
+  "name": "ohoo-studio-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline interaction design prototype for the ohoo team workspace",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.0",
+    "@xyflow/react": "^12.8.0",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": { "esbuild": "^0.27.0" }
+}

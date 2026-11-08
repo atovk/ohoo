@@ -1,0 +1,28 @@
+{
+  "name": "ohoo-local-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/build.mjs && node server/main.mjs",
+    "serve": "node server/main.mjs",
+    "example:design": "node scripts/prepare-design-example.mjs",
+    "example:release": "node scripts/prepare-release-example.mjs",
+    "example:target": "node scripts/release-example-target.mjs",
+    "open": "node scripts/open.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@getpaseo/client": "0.15.2",
+    "lucide-react": "0.468.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.7"
+  }
+}
